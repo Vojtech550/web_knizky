@@ -51,7 +51,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'cetba';
 $route['dila'] = 'cetba/dila';
-$route['dila/(:any)'] = 'cetba/dila/$1';
 $route['autori'] = 'cetba/autori';
 $route['kniha/(:num)'] = 'cetba/view_knihy/$1';
 $route['404_override'] = '';
